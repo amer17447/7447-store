@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 17 24 39;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  @apply max-w-6xl;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 text-sm font-medium shadow-sm transition hover:opacity-90;
+}
+.btn-primary {
+  @apply bg-black text-white;
+}
+.card {
+  @apply rounded-2xl border border-gray-200 shadow-sm bg-white;
+}
+.card-body {
+  @apply p-4;
+}
+.grid-products {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6;
+}
+.badge {
+  @apply inline-flex items-center rounded-full border px-3 py-1 text-xs text-gray-600;
+}
