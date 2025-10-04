@@ -26,15 +26,15 @@ export const products: Product[] = [
   },
   {
     id: "mug-travel",
-    title: "كوب سفر بغطاء",
-    description: "ستانلس ستيل مزدوج الجدار. يحافظ على الحرارة.",
+    title: "كوب سفر",
+    description: " مزدوج الجدار. يحافظ على الحرارة.",
     basePriceEur: 19,
     image: "/images/mugs/bild3.jpg",
     slug: "travel-400ml",
   },
   {
     id: "mug-heart",
-    title: "كوب بمقبض قلب",
+    title: "كوب بمقبضة ",
     description: "رومانسي ولطيف للتقديم.",
     basePriceEur: 14,
     image: "/images/mugs/bild4.jpg",
@@ -42,7 +42,7 @@ export const products: Product[] = [
   },
   {
     id: "mug-glass",
-    title: "كوب زجاجي شفاف",
+    title: "كوب زجاجي ",
     description: "زجاج مقسّى مناسب للمشروبات الباردة والساخنة.",
     basePriceEur: 13,
     image: "/images/mugs/bild5.jpg",
@@ -50,7 +50,7 @@ export const products: Product[] = [
   },
   {
     id: "mug-thermo",
-    title: "ترموس حافظ للحرارة",
+    title: " حافظ للحرارة",
     description: "سعة 500ml عملي للسفر.",
     basePriceEur: 22,
     image: "/images/mugs/bild6.jpg",
