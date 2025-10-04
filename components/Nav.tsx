@@ -8,7 +8,7 @@ export default function Nav() {
     <header className="border-b bg-white sticky top-0 z-50">
       <div className="container flex items-center gap-4 py-3">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.svg" alt="MugLab" width={32} height={32} />
+          <Image src="/logo.svg?v=2" alt="7447 Store" width={32} height={32} />
           <span className="font-semibold text-lg">MugLab</span>
         </Link>
         <nav className="ms-auto flex items-center gap-4 text-sm">
